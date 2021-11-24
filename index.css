@@ -1,0 +1,84 @@
+.header {
+    padding: 1px;
+    background-image: url('media/gallery.JPG');
+    background-position: center;
+    opacity: 0.7;
+    color: white;
+    font: small-caps bold 24px/1 sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+
+.flex-container2 {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.flex-container2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.pic {
+    height: 320px;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+.fullpic {
+    height: 460px;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+.description {
+    font: small-caps 16px/1 sans-serif;
+}
+
+.title {
+    font: small-caps bold 20px/1 sans-serif;
+}
+
+.nav-next{
+    position: relative;
+    margin-right: 922px;
+    text-align: right;
+}
+
+.nav-before{
+    position: relative;
+    margin-left: 930px;
+    text-align: left;
+}
+
+.navigation {
+    display: block;
+    margin-left: 930px;
+    
+    justify-content: space-between;
+  }
+
+
